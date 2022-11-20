@@ -1,0 +1,31 @@
+C:\WINDOWS\system32>cd C:\Users\Kishu Jaiswal\Desktop\Sample
+
+C:\Users\Kishu Jaiswal\Desktop\Sample>git init
+Initialized empty Git repository in C:/Users/Kishu Jaiswal/Desktop/Sample/.git/
+
+C:\Users\Kishu Jaiswal\Desktop\Sample>git add .
+
+C:\Users\Kishu Jaiswal\Desktop\Sample>git config --global user.email "kishujaiswal96@gmail.com"
+
+C:\Users\Kishu Jaiswal\Desktop\Sample>git config --global user.name "KishuJais"
+
+C:\Users\Kishu Jaiswal\Desktop\Sample>git commit -m "first command"
+[master (root-commit) 4104a5c] first command
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 New Microsoft Word Document.docx
+
+C:\Users\Kishu Jaiswal\Desktop\Sample>git remote add origin https://github.com/KishuJais/SampleRepo.git
+
+C:\Users\Kishu Jaiswal\Desktop\Sample>git branch
+* master
+
+C:\Users\Kishu Jaiswal\Desktop\Sample>git push origin master
+info: please complete authentication in your browser...
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 11.96 KiB | 765.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/KishuJais/SampleRepo.git
+ * [new branch]      master -> master
